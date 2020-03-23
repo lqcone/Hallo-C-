@@ -5,7 +5,7 @@ using namespace std;
 class Box34
 {
 public:
-	Box34(int w = 10, int h = 10, int len = 10);
+	Box34(int  = 10, int  = 10, int  = 10);
 	int volume34();
 private:
 	int height;
@@ -23,7 +23,7 @@ int Box34::volume34()
 {
 	return(height * width * length);
 }
-int main34()
+int main()
 {
 	Box34 box1;
 	cout << "box1 Με»ύ= " << box1.volume34() << endl;

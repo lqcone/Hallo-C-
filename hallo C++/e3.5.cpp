@@ -28,7 +28,7 @@ private:
 	string name;
 	char sex;
 };
-int main()
+int main35()
 {
 	Student35 stud1(10010, "Wang_li", 'f');
 	stud1.display35();

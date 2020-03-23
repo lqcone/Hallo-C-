@@ -4,12 +4,7 @@ using namespace std;
 class Time
 {
 public:
-	Time()
-	{
-		hour = 0;
-		minute = 0;
-		sec = 0;
-	}
+	Time();
 	void set_time();
 	void show_time();
 private:
@@ -37,4 +32,12 @@ void Time::set_time()
 void Time::show_time()
 {
 	cout << hour << ":" << minute << ":" << sec << endl;
+}
+Time::Time()
+{
+	hour = 1;
+	minute = 1;
+	if (hour == minute)
+		sec = 0;
+	else sec = 3;
 }
