@@ -3,7 +3,7 @@
 #include<iostream>
 #include<stdlib.h>
 using namespace std;
-int main(){
+int mainp(){
 	int maxpointer(int x,int *y);
 	int a=rand(),b=rand(),c;
 	cout<<"a=:"<<a<<"b=:"<<b<<endl;
