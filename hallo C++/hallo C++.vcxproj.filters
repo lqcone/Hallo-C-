@@ -119,5 +119,8 @@
     <ClCompile Include="e3.5.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="e3.6.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -89,6 +89,7 @@
     <ClCompile Include="e3.3.cpp" />
     <ClCompile Include="e3.4.cpp" />
     <ClCompile Include="e3.5.cpp" />
+    <ClCompile Include="e3.6.cpp" />
     <ClCompile Include="pointer.cpp" />
     <ClCompile Include="test.cpp" />
     <None Include="ReadMe.txt" />

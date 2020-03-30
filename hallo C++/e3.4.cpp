@@ -5,7 +5,10 @@ using namespace std;
 class Box34
 {
 public:
-	Box34(int  = 10, int  = 10, int  = 10);
+	
+	Box34(int=10, int = 10, int = 10) ;
+	
+	
 	int volume34();
 private:
 	int height;
@@ -23,9 +26,9 @@ int Box34::volume34()
 {
 	return(height * width * length);
 }
-int main()
+int main34()
 {
-	Box34 box1;
+	Box34 box1(15);
 	cout << "box1 体积= " << box1.volume34() << endl;
 	Box34 box2(15);
 	cout << "box2 体积 " << box2.volume34() << endl;

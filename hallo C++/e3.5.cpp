@@ -11,11 +11,11 @@ public:
 		num = n;
 		name = nam;
 		sex = s;
-		cout << "Constructor called." << endl;
+		cout << num<<": Constructor called." << endl;
 	}
 	~Student35()
 	{
-		cout << "Destructor called." << endl;
+		cout <<num<< ": Destructor called." << endl;
 	}
 	void display35()
 	{
