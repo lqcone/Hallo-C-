@@ -17,7 +17,7 @@ int Box36::volume()
 {
 	return(height * width * length);
 }
-int main()
+int main36()
 {
 	Box36 a[3];
 	cout << "a[0]的体积是 " << a[0].volume() << endl;
